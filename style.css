@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #5377db;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  background-color: #5a9cda;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+
+.form-group, .nilai-group {
+  margin-bottom: 20px;
+}
+
+.form-group label, .nilai-box label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input, .nilai-box input {
+  width: calc(45% - 5px);
+  padding: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.nilai-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nilai-box {
+  width: 45%;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.nilai-box.teori {
+  background-color: #a1cff5;
+}
+
+.nilai-box.praktik {
+  background-color: #a1cff5;
+}
+
+button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  background-color: #0f5f46;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.reset {
+  background-color: #f44336;
+}
+button.cancelData {
+  background-color: #e8473c;
+}
+
+
+button:hover {
+  opacity: 0.8;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+thead {
+  background-color: #4854dc;
+  color: white;
+}
